@@ -1,3 +1,22 @@
+.container{
+    display: grid;
+    grid-gap: 2px;
+    border: 2px solid blueviolet;
+
+
+
+
+
+
+
+    /* grid-template-columns: fr1 fr1 fr1;
+    grid-template-rows: fr1 fr1 fr1; */
+
+
+    grid-template-columns: minmax(300px) fr1  fr1;
+    grid-template-rows: auto auto auto;
+}
+
 img {
-    width: 100%;
+    width: 150px;
 }
